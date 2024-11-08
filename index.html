@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mario Andreau's personal website, showcasing web development projects and skills.">
     <meta name="keywords" content="Mario Andreau, web development, programming, projects, portfolio">
+    <meta property="og:title" content="Mario Andreau's Personal Website">
+    <meta property="og:description" content="Explore my projects, research, and more on my personal website.">
+    <meta property="og:image" content="url-to-image.jpg"> <!-- Use an image URL for social sharing -->
+    <meta name="twitter:card" content="summary_large_image">
     <title>Mario Andreau's Personal Website</title>
     <style>
         body {
@@ -70,6 +74,17 @@
         a:hover {
             text-decoration: underline;
         }
+
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            nav ul {
+                padding: 0;
+            }
+            nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+        }
     </style>
 </head>
 <body>
@@ -87,9 +102,9 @@
     </nav>
 
     <section id="about">
-    <h2>About Me</h2>
-    <p>I am a researcher who enjoys learning and teaching. I specialize in EEG, ERP, and other Time Frequency Analysis. I have my own Neuroscience Laboratory where we study the neural dynamics of memory.</p>
-</section>
+        <h2>About Me</h2>
+        <p>I am a researcher who enjoys learning and teaching. I specialize in EEG, ERP, and other Time Frequency Analysis. I have my own Neuroscience Laboratory where we study the neural dynamics of memory.</p>
+    </section>
 
     <section id="projects">
         <h2>Projects</h2>
@@ -108,6 +123,7 @@
 
     <footer>
         <p>Find me on <a href="https://github.com/yourusername">GitHub</a></p>
+        <p>&copy; 2024 Mario Andreau. All rights reserved.</p>
     </footer>
 </body>
 </html>
