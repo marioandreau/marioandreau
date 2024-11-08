@@ -3,13 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name's Website</title>
+    <meta name="description" content="Mario Andreau's personal website, showcasing web development projects and skills.">
+    <meta name="keywords" content="Mario Andreau, web development, programming, projects, portfolio">
+    <title>Mario Andreau's Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            background-color: #444;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Welcome to My Personal Webpage</h1>
         <p>Hello! I'm Mario Andreau. Welcome to my personal website where you can learn more about my projects, skills, and more!</p>
     </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer who enjoys creating beautiful, responsive websites. I specialize in HTML, CSS, JavaScript, and other web technologies. In my spare time, I love experimenting with new frameworks and contributing to open-source projects.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I’ve worked on:</p>
+        <ul>
+            <li><a href="https://github.com/yourusername/project1">Project 1</a> - Description of Project 1</li>
+            <li><a href="https://github.com/yourusername/project2">Project 2</a> - Description of Project 2</li>
+            <li><a href="https://github.com/yourusername/project3">Project 3</a> - Description of Project 3</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to <a href="mailto:your-email@example.com">email me</a>.</p>
+    </section>
+
     <footer>
         <p>Find me on <a href="https://github.com/yourusername">GitHub</a></p>
     </footer>
